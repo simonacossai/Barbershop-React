@@ -1,0 +1,33 @@
+/*gallery start*/
+.text-center{
+    margin-top: 2em;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-fluid{
+	height:350px;
+    width: 350px;
+    border: 15px solid #fff;
+    border-bottom: 70px solid #fff;
+    box-shadow: 0px 25px 30px rgba(0,0,0,0.3);
+}
+.gallery{
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+	margin-top: 10px;
+	color: #fff;
+}
+.col-md-4{
+	margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+.img-fluid:hover{
+	transform: scale(1.1);
+    transition: 1s;
+}
+}
+/*gallery end*/

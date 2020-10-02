@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+    background-color:  #EEE0CB;
+}
+  
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.8em;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 1130px){
+
+    footer.footer .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 750px){
+    .quote {
+        padding-top: 5rem;
+        margin-top: 2em;
+        color: rgba(255, 255, 255, 0.9);
+        text-align: center;
+        font-size:1.8em;
+    }
+    .quote i{
+        font-size:1.8em;
+    }
+    .quote h1{
+        color: rgba(255, 255, 255, 0.9);
+        font-weight:500 ;
+        font-size: 1.8em;
+    }
+    .move-up{
+     display:none;
+    }
+     #testimonials{
+        text-align: center;
+        background-color: #161616;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    
+    h2{
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+    
+    .testimonial-image{
+        width: 12%;
+        border-radius: 100%;
+        margin: 20px;
+    }
+    .carousel-item{
+       
+       padding: 7% 15%;
+    }
+    
+    .carousel-item i{
+        color: #b8864a;
+    }
+
+    footer.footer .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .follow{
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (max-width: 520px){
+   
+
+    footer.footer .container > div{
+        padding:  1rem .9rem !important;
+    }
+
+    footer .rights{
+        padding: 0 1.4rem;
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (max-width : 319px){
+	.hero-title{
+		font-size: 7rem;
+		letter-spacing: .1;
+	}
+	.name-shop{
+		color: white;
+		font-size: 2rem;
+		font-family: 'Source Sans Pro', sans-serif;
+		text-transform: uppercase;
+		font-weight: 900;
+		letter-spacing: .4rem;
+		margin-right: -.5rem;
+	}
+	
+	.barber-shop{
+    font-size: 1.3rem;
+    color:#fff;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+    letter-spacing: 2.3px;
+    margin-right: -3px;
+	}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .quote h1{
+        color: rgba(255, 255, 255, 0.9);
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.0em;
+    }
+	.navbar-scroll .nav-link:hover{
+		transition: 0.2s all ease;
+		border-bottom: none;
+	}
+	#about{
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	#about .row .col-md-6 .panel {
+	  position: initial;
+	  width: initial;
+	  height: initial;
+	}
+	#about .row .col-md-6 .pray img{
+	margin-bottom: 2em;
+	}
+
+	#about .row .col-md-6 .panel h1 {
+		font-weight: 600;
+		padding: 0.4em 0;
+		font-size: 2.5em;
+		text-align: center;
+	  }
+	  
+	  #about .row .col-md-6 .panel p {
+		font-size: 0.9em;
+		color: rgba(0, 0, 0, 0.7);
+	  }
+	  .collapse{
+		  text-align:center;
+	  }
+	  .navbar-nav{
+		  text-align: center;
+	  }
+	  #about .row .col-md-6 .panel{
+	
+		border-right: white;
+		border-left: 3px solid #b8864a;
+    }
+    .footer{
+        text-align:center;
+    }
+}

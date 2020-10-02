@@ -1,0 +1,67 @@
+
+/*about start*/
+#about {
+	padding: 40px;
+	text-align: center;
+}
+
+#about p {
+	font-size: 1.2rem;
+	max-width: 600px;
+	margin: auto;
+}
+
+#about{
+	padding: 20vmin 0 ;
+}
+#about .row .col-md-6 .pray img{
+	width: 77%;
+	border-radius: 0.1em;
+}
+#about .row .col-md-6:last-child{
+	position: relative;
+}
+#about .row .col-md-6 .panel{
+	position: absolute;
+	top: 7vmin;
+	left: -18vmin;
+	background: #eee;
+	border-radius: 0.3em;
+	text-align: left;
+	padding: 10vmin 10vmin 15vmin 8vmin;
+	box-shadow: 0px 25px 42px rgba(0,0,0,0.3);
+	border-right: 4px solid #b8864a;
+}
+  
+  #about .row .col-md-6 .panel h1 {
+	font-weight: 500;
+	padding: 0.4em 0;
+	font-size: 2.8em;
+  }
+  .center{
+	  text-align:center;
+	  align-items: center;
+	  justify-content: center;
+	  margin: 0 auto;
+  }
+  #about .row .col-md-6 .panel p {
+    font-size: 1em;
+    font-weight: 400;
+	color: rgba(0, 0, 0, 0.7);
+  }
+
+  .btn{
+	  margin-top: 20px;
+	  background-color: #f6f6f6;
+	  border: 1px solid #b8864a;
+	  color: #b8864a;
+	  transition: 0.3s all ease;
+	  font-weight: 500;
+  }
+
+  .btn:hover{
+	  background-color: #b28957;
+	  color: #f6f6f6;
+	  font-weight: 500;
+  }
+/*about end*/
